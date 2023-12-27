@@ -1,29 +1,29 @@
 //Using a for loop print all even numbers up to and including n. Dont include 0
 
-function even_num (num) {
+function evenNum (num) {
   for (i=2;i <= num;i+=2) {
       console.log(i);
   }
 }
 
-even_num(10);
+evenNum(10);
 
 console.log('-------------------------');
 
 //Print sum of a number from 1 to n
 
-function print_sum (num) {
+function printSum (num) {
   for (i=1;i <= num; i++) {
       console.log(i);
   }
 }
-print_sum(10);
+printSum(10);
 
 console.log('-------------------------');
 
 //write loop iterates from 0 to 15 that displays if the number and if its even or odd
 
-function even_odd (num) {
+function evenOdd (num) {
   for (i=0;i <= num; i++) {
       if (i % 2 === 0) {
           console.log(`${i} is even`);
@@ -33,14 +33,14 @@ function even_odd (num) {
       }
   }
 
-even_odd(15);
+evenOdd(15);
 
 console.log('-------------------------');
 
 //write loop 1 to 100. if its a multiple of 3 write 'fizz'. if its multiple of 5 write 'buzz'
 //if multiple of both then write 'fizzbuzz'
 
-function fizzbuzz (num) {
+function fizzBuzz (num) {
   for (i=1;i <= num; i++) {
       if (i % 3 === 0 && i % 5 === 0) {
           console.log(`${i} = FizzBuzz`);
@@ -52,4 +52,4 @@ function fizzbuzz (num) {
   }
 }
 
-fizzbuzz(100);
+fizzBuzz(100);
